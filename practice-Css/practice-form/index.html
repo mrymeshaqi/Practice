@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky_M77</title>
+    <link rel="icon" type="image/png" href="../favicon/E.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "News Cycle", sans-serif;
+      }
+      ::selection {
+        color: white;
+        background-color: #6bc76e;
+      }
+      .main-div {
+        display: grid;
+        justify-content: center;
+        margin: 20px;
+      }
+      form {
+        width: 280px;
+        border: 1px solid rgba(232, 234, 246, 0.35);
+        background-color: rgba(232, 234, 246, 0.35);
+      }
+      fieldset {
+        border: 0 solid rgba(232, 234, 246, 0.35);
+        padding: 10px 20px;
+      }
+      h2 {
+        text-align: center;
+        color: #333030;
+      }
+      .circle {
+        display: inline;
+        background-color: #4caf50;
+        width: 5px;
+        height: 5px;
+        padding: 0 8px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+      input {
+        background-color: #e7efea8c;
+        border: 1px solid #e7efea;
+        outline-color: #4caf50;
+      }
+      .inputT {
+        width: 98%;
+        height: 25px;
+      }
+      .inputB {
+        background-color: #e7efea8c;
+        border: 1px solid #e7efea;
+        outline-color: #4caf50;
+        width: 98%;
+      }
+      .inputJ {
+        width: 98%;
+      }
+      .inputS {
+        background-color: #4caf50;
+        width: 98%;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      .marginInput {
+        margin-bottom: 15px;
+      }
+      .radioCheck {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <form action="">
+        <h2>Sign Up</h2>
+        <fieldset>
+          <legend>
+            <div class="circle">1</div>
+            Your Basic Info
+          </legend>
+          <label for="name">Name:</label><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            autofocus
+            class="inputT marginInput"
+          /><br />
+          <label for="mail">Email:</label><br />
+          <input
+            type="email"
+            name="email"
+            id="mail"
+            required
+            class="inputT marginInput"
+          /><br />
+          <label for="pass">Password:</label><br />
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            minlength="8"
+            class="inputT marginInput"
+          /><br />
+          <label for="">Age:</label><br />
+          <input type="radio" name="age" id="age1" value="Under" />
+          <label for="age1" class="radioCheck">Under 18</label><br />
+          <input type="radio" name="age" id="age2" value="Over" />
+          <label for="age2" class="radioCheck">Over 18</label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>
+            <div class="circle">2</div>
+            Your Profile
+          </legend>
+          <label for="bio">Bio:</label><br />
+          <textarea
+            name="bio"
+            id="bio"
+            cols="30"
+            rows="3"
+            class="inputB marginInput"
+          ></textarea
+          ><br />
+          <label for="job">Job Role:</label><br />
+          <input
+            type="text"
+            list="jobList"
+            id="job"
+            name="Job"
+            placeholder="IOS Developer"
+            class="inputJ marginInput"
+          />
+          <datalist id="jobList">
+            <option value="frant-end">Frant-End Developer</option>
+            <option value="back-end">Back-End Developer</option>
+            <option value="full-stack">Full-Stack</option>
+            <option value="php">PHP Developer</option>
+            <option value="python">Python Developer</option>
+            <option value="web">Web Designer</option>
+            <option value="wordpress">Wordpress Developer</option>
+            <option value="android">Android Developer</option>
+            <option value="ios">IOS Developer</option>
+            <option value="mobile">Mobile Designer</option>
+            <option value="business">Business Owner</option>
+            <option value="freelancer">Freelancer</option></datalist
+          ><br />
+          <label for="">Interests:</label><br />
+          <input
+            type="checkbox"
+            value="Development"
+            name="checkbox"
+            id="development"
+          />
+          <label for="development" class="radioCheck">Development</label><br />
+          <input type="checkbox" value="Design" name="checkbox" id="design" />
+          <label for="design" class="radioCheck">Design</label><br />
+          <input
+            type="checkbox"
+            value="Business"
+            name="checkbox"
+            id="business"
+          />
+          <label for="business" class="radioCheck">Business</label><br />
+          <input type="submit" value="Sign Up" class="inputS" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

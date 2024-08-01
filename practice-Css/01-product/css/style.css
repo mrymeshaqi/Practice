@@ -1,0 +1,137 @@
+@font-face { 
+  font-family: 'Vazir Light';
+  src: local("Vazir Light") ,
+  url(../fonts/ttf/Vazirmatn-Light.ttf) format(TrueType) ,
+  url(../fonts/woff/Vazirmatn-Light.woff2) format(woff) ;
+}
+
+* {
+  font-family: "Vazir Light";
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.star-svg {
+  color: #f4d611;
+  width: 15px;
+  height: 15px;
+  margin-bottom: -3px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  display: inline;
+}
+
+a {
+  font-size: 1.3rem;
+  color: #0089ff;
+  text-decoration: none;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fafafa;
+}
+
+.section-box {
+  width: 200px;
+  height: 300px;
+  padding: 15px;
+  background-color: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
+  position: relative;
+  transition: .2s;
+}
+
+.section-box:hover {
+  box-shadow: 0px 4px 10px #eae8e8;
+}
+
+ul {
+  position: absolute;
+  padding: 0px;
+  right: 0;
+}
+
+li {
+  color: #ffffff;
+  background-color: #0089ff;
+  border-color: #0089ff;
+  border-style: solid;
+  border-width: 2px 8px 2px 15px; 
+  border-radius: 10px 0px 0px 0px;
+}
+
+.div-picture {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 150px;
+}
+
+h6 {
+  color: #807f7f;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.marking {
+  color: #0089ff;
+  background-color: #cae4fb;
+  text-decoration: none;
+  margin-left: 6px;
+  margin-top: 20px;
+  padding: 2px 5px;
+  padding-bottom: unset;
+  border-radius: 3px;
+}
+
+h4 {
+  display: inline;
+  color: #ababab;
+  text-decoration: line-through;
+  margin-top: 20px;
+}
+
+.div-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  bottom: -5px;
+}
+
+.numberr {
+  font-size: 14px;
+}
+
+.new-svg {
+  color: #11b1fb;
+  width: 18px;
+  height: 18px;
+  margin-bottom: -6px;
+}

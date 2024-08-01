@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Vazirmatn Light';
+  src: local('Vazirmatn Light') ,
+  url(fonts/ttf/Vazirmatn-Light.ttf);
+}
+@font-face {
+  font-family: 'Vazirmatn Light';
+  src: local('Vazirmatn Light') ,
+  url(fonts/woff/Vazirmatn-Light.woff2);
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Vazirmatn Light';
+  background-color: #d7d7d7;
+}
+
+.main {}
+.container {
+  width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.course {
+  width: 18.5rem;
+  height: auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+.course-head {
+  position: relative;
+  height: 16rem;
+}
+.course-head__mark {
+  position: absolute;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+.course__heart {
+  width: 1.8rem;
+  background-color: #c9c9c9;
+  color: black;
+  border-radius: 1rem;
+  padding: 0.2rem;
+}
+.course__persent {
+  background-color: #ee5d5d;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+.course-head__picture {
+  width: 18.5rem;
+  height: 15rem;
+}
+.course-head__img {
+  width: 100%;
+  height: 100%;
+}
+.course-head__ticket {
+  display: inline;
+  position: relative;
+  top: -1rem;
+  right: 1rem;
+  color: white;
+  background-color: #8b34e3;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.4rem;
+}
+.course-content {
+  padding: 0.8rem;
+}
+.course-desc {}
+.person-comment {
+  display: flex;
+  align-items: center;
+}
+.person__img {
+  width: 2rem;
+  border-radius: 1rem;
+}
+.person__title {
+  margin-right: 0.5rem;
+}
+.course__title {
+  margin: 0.8rem 0;
+}
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #a8a8a8;
+  padding-top: 0.8rem;
+}
+.course__price {
+  display: flex;
+  flex-direction: column;
+}
+.course__price--delete {
+  color: #d84d4d;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+}
+.course__press {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+.course__rating {
+  display: flex;
+  align-items: center;
+}
+.course__score {
+  display: flex;
+}
+.course__star {
+  width: 1.5rem;
+  color: #e2e226;
+}
+.course__number-score {
+  margin-right: 0.5rem;
+}

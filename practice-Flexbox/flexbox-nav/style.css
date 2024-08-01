@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Vazirmatn Light';
+  src: local('Vazirmatn Light'), 
+  url(fonts/ttf/Vazirmatn-Light.ttf) format(trueType);
+}
+@font-face {
+  font-family: 'Vazirmatn Light';
+  src: local('Vazirmatn Light'), 
+  url(fonts/woff/Vazirmatn-Light.woff2) format(.woff2);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Vazirmatn Light';
+  background-color: #f8f8f8;
+}
+.header {
+  margin-top: 2rem;
+}
+.container {
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pagetop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 2px 8px 15px 0px #8888;
+}
+.pagetop-symbol {
+  display: flex;
+  align-items: center;
+}
+.pagetop__logo {
+  width: 3.5rem;
+  margin-left: 0.5rem;
+}
+.pagetop__title {
+  color: blueviolet;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pagetop-nav {}
+.nav {}
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+.menu__item {
+  /* margin: 1rem 1.5rem; */
+  margin: 0 1.5rem;
+}
+.menu__link {
+  text-decoration: none;
+  color: black;
+}
+.menu__link--align {
+  display: flex;
+  align-items: center;
+  color: blueviolet;
+  font-weight: bold;
+}
+.academic-cap {
+  color: #6ddd9c;
+  width: 1.5rem;
+  margin-left: 0.4rem;
+}
+.pagetop-signin {
+  display: flex;
+  align-items: center;
+}
+.pagetop__btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #888;
+  outline: none;
+}
+.pagetop__link {
+  text-decoration: none;
+  color: #4b4a4a;
+  font-family: 'Vazirmatn Light';
+  font-weight: bold;
+}
+.sun-icon {
+  width: 1.8rem;
+  margin-right: 1.5rem;
+}

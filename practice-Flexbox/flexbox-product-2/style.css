@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Vazirmatn Light';
+  src: local('Vazirmatn Light'),
+  url(fonts/ttf/Vazirmatn-Light.ttf) format(trueType);
+}
+@font-face {
+  font-family: 'Vazirmatn Light';
+  src: local('Vazirmatn Light'),
+  url(fonts/woff/Vazirmatn-Light.woff2) format(woff2);
+}
+@font-face {
+  font-family: 'Vazirmatn Bold';
+  src: url(fonts/ttf/Vazirmatn-Bold.ttf) format(trueType);
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Vazirmatn Light';
+  background-color: #e7e7e7;
+}
+.main {}
+.container {
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.article {
+  width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden
+}
+.article-head {
+  width: 25rem;
+  height: 14.5rem;
+}
+.article__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article-content {
+  padding: 1rem;
+  background-color: #fff;
+}
+.article__title {}
+.article-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.person-comment {
+  display: flex;
+  align-items: center;
+}
+.person__img {
+  width: 2rem;
+  border-radius: 2rem;
+  margin-left: 0.5rem;
+}
+.person__name {
+  width: 5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.person__name--bold {
+  font-family: 'Vazirmatn Bold';
+}
+.article-release {
+  display: flex;
+  align-items: flex-start;
+}
+.article__date {
+  width: 4rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.article__calendar {
+  width: 2.2rem;
+  margin-right: 0.5rem;
+}
+.article-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.article-time {
+  display: flex;
+  align-items: center;
+  background-color: #e7e7e7;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.2rem;
+}
+.article__clock {
+  width: 1.5rem;
+  color: green;
+  margin-left: 0.5rem;
+}
+.article__info-time {}
+.article-view {
+  display: flex;
+  align-items: flex-end;
+  background-color: #ffbe38;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+}
+.article__number-view {
+  font-size: 0.9rem;
+}
+.article__eye {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+.article-save {
+  display: flex;
+}
+.article__bookmark {
+  width: 2.8rem;
+  color: green;
+  background-color: #e7e7e7;
+  padding: 0 0.5rem;
+  border-radius: 0.2rem;
+}
+.article__link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  background-image: linear-gradient(to left, #22d267 , #9fe1b9);
+}

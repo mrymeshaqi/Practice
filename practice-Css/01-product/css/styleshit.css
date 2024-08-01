@@ -1,0 +1,24 @@
+@font-face { font-family: "Vazir Light";
+  src: local("Vazir Light"),
+  url(../fonts/ttf/Vazirmatn-Light.ttf) format(TrueType),
+  url(../fonts/woff/Vazirmatn-Light.woff2) format(woff2);
+}
+
+* {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 1216px;
+  background-color: #fff;
+}
+.section-head {
+  width: 1216px;
+}
+.section__title {
+  
+}
+.section__title-icon {
+  
+}

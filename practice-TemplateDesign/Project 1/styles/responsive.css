@@ -1,0 +1,147 @@
+
+@media (max-width: 380px) {
+  .header-content__title {
+    font-size: 4rem;
+  }
+  .header-content__caption {
+    font-size: 1.6rem;
+    max-width: 31rem;
+  }
+  .destinations__title {
+    font-size: 2.5rem;
+  } 
+  .place__banner {
+    width: 100%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer__title {
+    margin: 0 auto;
+  }
+  .footer__right {
+    justify-content: center;
+  }
+}
+@media (min-width: 576px) {
+  .service {
+    width: 33rem;
+  }
+  .place__caption {
+    max-width: 26rem;
+  }
+  .footer__title {
+    max-width: 36rem;
+  }
+}
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  .nav__btn, .nav-menu {
+    display: none;
+  }
+  .service__caption {
+    font-size: 1.5rem;
+  }
+  .place {
+    width: 32rem;
+  }
+  .newsletter {
+    flex-direction: row;
+    text-align: left;
+  }
+  .newsletter__title {
+    font-size: 2.8rem;
+    max-width: 30rem;
+    margin: 1rem 0;
+  }
+  .newsletter__content {
+    width: 50%;
+    padding-right: 2rem;
+  }
+  .newsletter__banner {
+    width: 50%;
+    padding-left: 2rem;
+  }
+  .newsletter::after {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .nav__links {
+    display: block;
+  }
+  .header-content__caption {
+    max-width: 50rem;
+  }
+  .newsletter__title {
+    font-size: 3rem;
+  }
+  .newsletter__caption {
+    max-width: 42rem;
+  }
+  .newsletter::after {
+    left: -360px;
+  }
+  .footer__scroll {
+    left: auto;
+  }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__left {
+    max-width: 42rem;
+  }
+  .footer-list {
+    width: 16rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    min-height: 70rem;
+  }
+  .service {
+    width: 32rem;
+  }
+  .newsletter {
+    justify-content: space-between;
+    padding: 1rem 7rem;
+  }
+  .newsletter__content {
+    width: 45%;
+  }
+  .newsletter__banner {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .newsletter__img {
+    width: 44rem;
+  }
+  .newsletter::after {
+    left: -280px;
+  }
+  .footer {
+    border-top-left-radius: 13rem;
+    border-top-right-radius: 13rem;
+  }
+  .footer__left {
+    max-width: 55rem;
+  }
+}
+@media (min-width: 1400px) {
+  .footer__left {
+    max-width: 60rem;
+  }
+  .footer-list {
+    width: 19rem;
+  }
+  .footer-list--width {
+    width: 23rem;
+  }
+  .newsletter::after {
+    left: -120px;
+  }
+}
