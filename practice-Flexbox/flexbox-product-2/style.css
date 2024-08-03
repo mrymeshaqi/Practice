@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Vazirmatn Light';
-  src: local('Vazirmatn Light'),
-  url(fonts/ttf/Vazirmatn-Light.ttf) format(trueType);
+  font-family: "Vazirmatn Light";
+  src: local("Vazirmatn Light"),
+    url(fonts/ttf/Vazirmatn-Light.ttf) format(trueType);
 }
 @font-face {
-  font-family: 'Vazirmatn Light';
-  src: local('Vazirmatn Light'),
-  url(fonts/woff/Vazirmatn-Light.woff2) format(woff2);
+  font-family: "Vazirmatn Light";
+  src: local("Vazirmatn Light"),
+    url(fonts/woff/Vazirmatn-Light.woff2) format(woff2);
 }
 @font-face {
-  font-family: 'Vazirmatn Bold';
+  font-family: "Vazirmatn Bold";
   src: url(fonts/ttf/Vazirmatn-Bold.ttf) format(trueType);
 }
 *,
@@ -20,10 +20,11 @@
   padding: 0;
 }
 body {
-  font-family: 'Vazirmatn Light';
+  font-family: "Vazirmatn Light";
   background-color: #e7e7e7;
 }
-.main {}
+.main {
+}
 .container {
   width: 80rem;
   margin-left: auto;
@@ -40,7 +41,7 @@ body {
 .article {
   width: 25rem;
   border-radius: 0.5rem;
-  overflow: hidden
+  overflow: hidden;
 }
 .article-head {
   width: 25rem;
@@ -55,7 +56,8 @@ body {
   padding: 1rem;
   background-color: #fff;
 }
-.article__title {}
+.article__title {
+}
 .article-desc {
   display: flex;
   align-items: center;
@@ -78,7 +80,7 @@ body {
   font-weight: normal;
 }
 .person__name--bold {
-  font-family: 'Vazirmatn Bold';
+  font-family: "Vazirmatn Bold";
 }
 .article-release {
   display: flex;
@@ -111,7 +113,8 @@ body {
   color: green;
   margin-left: 0.5rem;
 }
-.article__info-time {}
+.article__info-time {
+}
 .article-view {
   display: flex;
   align-items: flex-end;
@@ -145,5 +148,5 @@ body {
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin-top: 1.5rem;
-  background-image: linear-gradient(to left, #22d267 , #9fe1b9);
+  background-image: linear-gradient(to left, #22d267, #9fe1b9);
 }
